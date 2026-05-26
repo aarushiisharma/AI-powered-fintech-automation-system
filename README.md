@@ -1,2 +1,3 @@
-# AI-powered-fintech-automation-system
-Automated fintech system for resolving banking disputes. Includes simulated core banking APIs, LLM reasoning, PII scrubbing, and n8n orchestration workflows.
+Automated Fintech System is an AI-powered platform designed to automate complex banking workflows, with a primary focus on banking dispute resolution.
+
+The system orchestrates operations using n8n workflows and integrates with a robust FastAPI-based Mock Core Banking API. It provides simulated endpoints for KYC, audit, token usage, and third-party integrations, serving as a sandbox for LLM reasoning. To ensure data privacy, the system features a built-in PII Scrubber that uses regex and validation algorithms (like Luhn for credit cards) to detect and safely mask sensitive information such as SSNs, emails, and credit card numbers before processing.
